@@ -1,13 +1,18 @@
-letter = """Dear {salutation} {name},
-    Thank you for your letter. We are sorry that our {product} {verbed} in your 
-{room}. Please note that it should never be used in a {room}, especially near any 
-{animals}
-    Send us your receipt and {amount} for shipping and handling. We will send you
-another {product} that, in our tests, is {percent}% less likely to have {verbed}.
-    Thank you for your support.
-    Sincerely
-    {spokesman}
-    {job_title}"""
-print(letter.format(salutation='hello', name='Yoon', product='bomb', verbed='exploded', room='Seuol', animals='citizens', amount='four millions', percent ='50', spokesman='Kim', job_title='president'))
+A='duck'
+B='gourd'
+C='spitz'
 
+print("%sy Mc%sface"%(A.capitalize(),A.capitalize()))
+print("%sy Mc%sface"%(B.capitalize(),B.capitalize()))
+print("%sy Mc%sface"%(C.capitalize(),C.capitalize()))
+print('\n')
 
+print('{}y Mc{}face'.format(A.capitalize(),A.capitalize()))
+print('{}y Mc{}face'.format(B.capitalize(),B.capitalize()))
+print('{}y Mc{}face'.format(C.capitalize(),C.capitalize()))
+print('\n')
+
+print(f'{A.capitalize()}y Mc{A.capitalize()}face')
+print(f'{B.capitalize()}y Mc{B.capitalize()}face')
+print(f'{C.capitalize()}y Mc{C.capitalize()}face')
+print('\n')
